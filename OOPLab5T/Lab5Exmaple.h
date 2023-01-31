@@ -174,6 +174,7 @@ struct PIB
 		name = s.name;
 		lname = s.lname;
 		cout << " PIB operator=(PIB &) \n";
+		return *this;
 	}
 	string toString() {
 		string ts = "PIB: " + fname + "  " + name + "  " + lname + " ";
