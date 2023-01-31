@@ -1,6 +1,6 @@
 {
 	"version": "2.0.0",
-	"tasks": [
+	"tasks": [ 
 		{
 			"type": "cppbuild",
 			"label": "C/C++: g++.exe build active file",
@@ -8,7 +8,7 @@
 			"args": [
 				"-fdiagnostics-color=always",
 				"-g",
-				"${workspaceFolder}\\*.cpp",
+				"${workspaceFolder}\\ooplab5t\\*.cpp",
 				"-o",
 				"${workspaceFolder}\\lab5oop.exe"
 			],
