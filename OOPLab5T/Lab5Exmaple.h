@@ -53,7 +53,7 @@ public:
 	}
 };
 class Base {
-	int data_base;
+	int data_base=0;
 	class InnerBase {
 		static int n_innerbase;
 	public:
